@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/*BODY*/
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Signika', sans-serif;
+}
+.anime{
+    @apply hover:transition hover:duration-200 ease-out  hover:ease-in
+}
+
+.containerBox{
+    @apply  px-3 lg:px-16  
+}
+.boxCenter{
+    @apply  items-center justify-center flex
+}
+/*THEME*/
+
+.thmeBg{
+    @apply bg-gray-900
+}
+.themeColor{
+    @apply text-gray-900
+}
+.thmeLightBg{
+    @apply bg-teal-800
+}
+.thmeLightText{
+    @apply text-teal-800
+}
+
+/**/
+
+
+
+.boxStart{
+    @apply  items-start justify-start flex
+}
+.noneBox{
+    @apply  md:visible invisible
+
+}
+.menuBox{
+    @apply  z-20  invisible  fixed w-full max-h-full h-full anime
+}
+.menuBoxNone{
+    @apply  visible anime 
+}
+.menuBasketNone{
+    @apply  visible anime
+}
+
+.hoverBars{
+    @apply w-fit cursor-pointer  hover:border-teal-800 hover:border-b border-b font-semibold border-white  anime 
+}
+.hoverMenus{
+    @apply w-fit  cursor-pointer hover:border-white hover:border-b border-b border-gray-900   anime 
+}
+.headerBoxStyle{
+    @apply fixed z-30
+}
+.headerBox{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2);
+}
+.titleText{
+    @apply text-[32px] font-semibold whitespace-normal
+}
+.btnGreen{
+    @apply font-semibold border-teal-800  text-white bg-teal-800 rounded-md px-1 py-2  hover:text-teal-800 hover:border-teal-800 border-2 hover:bg-white anime
+}
+.btnGreenTwo{
+    @apply font-semibold border-teal-800  text-white bg-teal-800 rounded-full px-1 py-2  hover:text-teal-800 hover:border-teal-800 border-2 hover:bg-white anime
+}
+.btnWhite{
+    @apply font-semibold border-gray-900  text-white bg-gray-900 rounded-md px-2 py-1  hover:text-gray-900 hover:border-gray-900 border-2 hover:bg-white anime
+}
+
+.scrollThme{
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: 0px;
+    
+}
+.scrollHiden::-webkit-scrollbar{
+    display: none;
+    visibility: hidden;
+    opacity: 0
+}
+.linkHover{
+@apply hover:border-b-2 border-b-2 anime hover:border-teal-800 hover:shadow-md rounded-md border-white px-2 py-1
+}
+.scroll{
+    @apply bg-red-900
+}
+.headerChange{
+    @apply headerBox
+}
+.react-international-phone-input-container{
+    width: 100%;
+    
+}
+
+.inputForm{
+    @apply   text-[14px] text-gray-500 focus:outline-none border-b 
+}
+

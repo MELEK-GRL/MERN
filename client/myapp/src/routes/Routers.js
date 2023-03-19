@@ -12,8 +12,8 @@ import Register from '../Page/Register'
 export default function Routers() {
   return (
   <Routes>
-    <Route path='/' element={<Navigate to='/home'/>}/>
-    <Route path='/home' element={<Home/>}/>
+    <Route path='/' element={<Navigate to='/MERN'/>}/>
+    <Route path='/MERN' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/tours' element={<Tours/>}/>
     <Route path='/tour/:id' element={<TourDeatil/>}/>

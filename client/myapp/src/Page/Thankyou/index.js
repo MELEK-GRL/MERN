@@ -15,7 +15,6 @@ export default function index() {
       <div className="boxCenter w-full h-full containerBox">
       <Section/>
       </div>
-
      
     </div>
   )
